@@ -88,6 +88,13 @@ bank.add_account(savings)
 bank.add_account(fixed)
 bank.add_account(current)
 
+# check the methods
+print("savings account balance is")
+print(savings.get_balance())
+print("current account balance is")
+print(current.get_balance())
+print("fixed account balance is")
+print(fixed.get_balance())
 # Perform transfer
 bank.transfer_Account("666666", "454545", 200)
 
